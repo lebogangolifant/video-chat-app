@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-  <title>Realtime communication with WebRTC</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hey buddie</title>
   <link rel="stylesheet" href="css/main.css" />
-
 </head>
-
 <body>
 
-  <h1>Realtime communication with WebRTC</h1>
-
+  <header>
+    <h1>heyBuddie...</h1>
+  </header>
+    
+  <video id="localVideo" autoplay playsinline></video>
+  <video id="remoteVideo" autoplay playsinline></video>
+  
+  
+  <div>
+    <button id="startButton">Start</button>
+    <button id="callButton">Call</button>
+    <button id="hangupButton">Hang Up</button>
+  </div>
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="js/main.js"></script>
 </body>
-
 </html>
